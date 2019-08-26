@@ -1,2 +1,2 @@
-# WilliamsLoganM.github.io
-CSCE 242 Website
+# Hello World
+CSCE 242 class assignment.
