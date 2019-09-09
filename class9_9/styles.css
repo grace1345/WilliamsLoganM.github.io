@@ -1,0 +1,54 @@
+*{
+    box-sizing:border-box;    
+}
+
+header, article, aside, footer {
+    margin:10px auto;
+    padding: 5px 10px 5px 10px;
+    width: 70%;
+    border-radius:10px;
+}
+body{
+    background: url(images/hodor.jpg);
+    font-family: Arial, Helvetica, sans-serif;
+}
+header{
+    border:5px solid lightcoral;
+    background: rgba(213, 240, 245, .8);
+}
+section{
+}
+article{
+    background: lavender;
+    border: 5px solid whitesmoke;
+}
+aside{
+    background: lightcyan;
+    border: 5px solid whitesmoke;
+}
+footer{
+    border: 3px solid black;
+    background: lightseagreen;
+    width: 70%;
+}
+
+nav a{
+    background: #F5E3D5;
+    padding: 2px 2px 2px 2px;
+    margin: 5px;
+    color: #000;
+    text-decoration:none;
+    border: 2px solid black;
+    border-radius: 3px;
+}
+
+nav a:hover{
+    background: lavender;
+    
+}
+nav li{
+    list-style-type: none;
+    margin: 2px;
+    padding: 4px;
+    float: left;
+}
