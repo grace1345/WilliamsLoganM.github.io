@@ -1,0 +1,117 @@
+*{
+    box-sizing:border-box;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+body{
+    background: whitesmoke;
+}
+
+header, footer, aside, section{
+    margin: 10px auto;
+    padding: 5px 10px 5px 10px;
+    width: 100%;
+    border-radius:10px;
+}
+
+header{
+    background: #DFEFFD;
+}
+
+.twocolumns{
+    background: #B09F9E;
+    justify-content: space-around;
+}
+.col1of2{
+    background: #C9B2B1;
+    padding: 10px;
+    border-radius: 10px;
+    outline: 2px solid black;
+    flex-basis: 48%;
+}
+
+.col2of2{
+    background: #C9B2B1;
+    padding: 10px;
+    outline: 2px solid black;
+    flex-basis: 48%;
+}
+
+.threecolumn{
+    background: #B09F9E;
+}
+.col1of3{
+    background: #C9B2B1;
+    padding: 10px;
+    margin: 5px;
+    outline: 2px solid black;
+    flex:4;
+    order: 2;
+}
+
+.col2of3{
+    background: #C9B2B1;
+    padding: 10px;
+    margin: 5px;
+    outline: 2px solid black;
+    flex:2;
+    order:1;
+}
+
+.col3of3{
+    background: #C9B2B1;
+    padding: 10px;
+    margin: 5px;
+    outline: 2px solid black;
+    flex:1;
+    order:3;
+}
+
+.vertColumn{
+    background: #B09F9E;
+}
+
+.vertColumns{
+    flex: 1;
+    flex-direction: column;
+}
+
+.vertCol1of3{
+    background: #C9B2B1;
+    padding: 10px;
+    margin: 5px;
+    outline: 2px solid black;
+    flex:3;
+    
+}
+
+.vertCol2of3{
+    background: #C9B2B1;
+    padding: 10px;
+    margin: 5px;
+    outline: 2px solid black;
+    flex:2;
+    flex-direction: column;
+}
+
+.vertCol3of3{
+    background: #C9B2B1;
+    padding: 10px;
+    margin: 5px;
+    outline: 2px solid black;
+    flex:1;
+    flex-direction: column;
+}
+
+.images{
+    justify-content: space-between;
+}
+footer{
+    background: #B4B59B;
+}
+
+@media (min-width:900px){
+    .twocolumns, .images, .vertColumn, .vertColumns, .threecolumn {
+        display:flex;
+    }
+}
