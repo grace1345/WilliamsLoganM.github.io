@@ -162,7 +162,6 @@ button{
     #main-nav ul {
         display:flex;
         justify-content: space-evenly;
-        display:none;
     }
 
     #main-content-junior {
