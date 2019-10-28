@@ -1,7 +1,22 @@
+
 {
     "name" : "x-men flyer",
     "brand" : "Merrell",
     "price" : "34.52",
     "rating" : "5 stars",
     "comments" : ["Best shoe ever", "I love your shoe", "X-MEN!"]
+}
+{
+    "name" : "x-men flyer1",
+    "brand" : "Merrell1",
+    "price" : "34.53",
+    "rating" : "6 stars",
+    "comments" : ["Best shoe ever x 1", "I love your shoe x 1", "X-MEN! x 1"]
+}
+{
+    "name" : "x-men flyer2",
+    "brand" : "Merrell2",
+    "price" : "34.54",
+    "rating" : "7 stars",
+    "comments" : ["Best shoe ever x 2", "I love your shoe x 2", "X-MEN! x 2"]
 }

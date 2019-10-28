@@ -1,18 +1,21 @@
-async function special()
+async function displayShoe()
 {
-    console.log("In special beginning");
-    console.log(await setTimeout(doStuff, 2000));
-    console.log("In special ending");
-}
+    let response = await fetch("https://williamsloganm.github.io/Class10_28/shoe.json");
+    console.log(response);
+    let shoeJson = await response.json();
 
-function doStuff()
-{
-    console.log("In do stuff");
+    let shoeName = shoeJson.name;
+    let shoeBrand = shoeJson.brand;
+
+    console.log(shoeName + " by " + shoeBrand);
+
+    for(i in comments)
+    {
+        console.log(comments[i]);
+    }
 }
 
 window.onload = function()
 {
-    this.console.log("Before calling Special");
-    this.special();
-    this.console.log("After calling special");
+    this.displayShoe();
 }
