@@ -9,6 +9,35 @@ class book {
     year = "Unsupplied";
     rating = "Unsupplied";
         }
+
+    getSource()
+    {
+        return this.source;
+    }
+    getTitle()
+    {
+        return this.title;
+    }
+    
+    getAuthor()
+    {
+        return this.author;
+    }
+    
+    getGenre()
+    {
+        return this.genre;
+    }
+    
+    getYear()
+    {
+        return this.year;
+    }
+    
+    getRating()
+    {
+        return this.rating;
+    }
 }
 
 let books = [];
