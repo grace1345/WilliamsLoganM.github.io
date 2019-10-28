@@ -66,22 +66,25 @@ window.onload = function()
 
 function toString(book)
 {
-    return `${book.title} by ${book.author}, Genre: ${book.genre}, written in ${book.year}, Rating: ${book.rating}`
+    return `${book.title} by ${book.author}, Genre: ${book.genre}, Written in ${book.year}, Rating: ${book.rating}`
 }
 
 function postBook()
 {
     const header = this.document.getElementById("book-title");
     
-    if(bookIndex > books.length)
+    if(bookIndex > books.length - 1)
     {
         return;
     }
-    let bookPara = toString(books[bookIndex]);
+
+    
+    let bookPara = document.createElement("span");
+    bookPara.innerHTML = toString(books[bookIndex]);
     let bookCover = document.createElement("img");
     const br = document.createElement("br");
     bookCover.src = books[bookIndex].source;
     header.after(bookCover, bookPara, br);
-    
+
     bookIndex++;
 }
